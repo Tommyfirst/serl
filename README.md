@@ -67,6 +67,11 @@ We fixed a major issue in the intervention action frame. See release [v0.1.1](ht
     cd serl_launcher
     pip install -e .
     pip install -r requirements.txt
+
+    pip show gymnasium #check if gymnasium is 0.29.1
+    pip install gymnasium==0.29.1
+    pip show mujoco
+    pip install mujoco==2.3.7
     ```
 
 ## Overview and Code Structure
